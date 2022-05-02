@@ -9,7 +9,7 @@ This covers how to setup a new Python project
 # 1. Use pyenv to install Python
 #    1.1 Check if pyenv installed:
      pyenv versions
-#    1.2 If error install with:
+#    1.2 If not found, install with...
      curl https://pyenv.run | bash
      exec $SHELL
      pyenv update
