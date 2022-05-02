@@ -24,6 +24,16 @@ This covers how to setup a new Python project
 pyenv install 3.10.2
 # 3. Make new directory and naviate into directory
 mkdir my_project && cd my_project
+# 4. Set Python Version for the Folder
+pyenv local 3.10.2
+# 5. Create new virtual environment called "proj_env"
+python -m venv proj_env
+# 6. Activate virtual environment
+source proj_env/bin/activate
+# 7. Install packages needed for project (ie. below)
+python -m pip install requests
+# 8. Create requirements.txt file
+python -m pip freeze > requirements.txt
 ```
 
 ## Usage
