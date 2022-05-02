@@ -13,11 +13,11 @@ This covers how to setup a new Python project
      curl https://pyenv.run | bash
      exec $SHELL
      pyenv update
-#    If pyenv still not found execute the following 3 commands
+#    1.3 If pyenv still not found execute the following 3 commands
      echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
      echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
      echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n eval "$(pyenv init -)"\nfi' >> ~/.bashrc
-#    Test with:
+#    1.4 Test with:
      pyenv update
      pyenv versions
 # 2. Install Desired Python Version
