@@ -27,6 +27,7 @@ mkdir my_project && cd my_project
 # 4. Set Python Version for the Folder
 pyenv local 3.10.2
 # 5. Create new virtual environment called "proj_env"
+# Alternatively consider use Poetry (docuemnted here: https://testdriven.io/blog/python-environments/)
 python -m venv proj_env
 # 6. Activate virtual environment
 source proj_env/bin/activate
